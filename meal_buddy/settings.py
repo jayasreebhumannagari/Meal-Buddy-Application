@@ -117,7 +117,16 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.2/howto/static-files/
 
+# Static files (CSS, JavaScript, Images)
 STATIC_URL = 'static/'
+
+# Where collectstatic will copy files to
+STATIC_ROOT = BASE_DIR / 'staticfiles'
+
+# Hosts allowed to serve the site (replace with your pythonanywhere username)
+ALLOWED_HOSTS = ['BhumannaGariJayasree.pythonanywhere.com', 'localhost', '127.0.0.1']
+# while testing you can temporarily use ALLOWED_HOSTS = ['*'] but don't keep it in production
+
 
 
 
