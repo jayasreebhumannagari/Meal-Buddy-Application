@@ -1,1 +1,1 @@
-# Meal-Buddy-Application
+# Meal-Buddy-Application A Django-based web application that allows users to perform CRUD operations (Create, Read, Update, Delete) after authentication. Users can register, log in, log out, and manage their data securely.
